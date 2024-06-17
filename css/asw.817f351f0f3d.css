@@ -1,0 +1,75 @@
+/* Add here all your css styles (customizations) */
+.whatsapp-widget {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #21c87a;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 0 15px #21c87a;
+  z-index: 100;
+}
+
+a.whatsapp-widget:hover,
+a.whatsapp-widget:focus,
+a.whatsapp-widget:active {
+  color: #fff;
+  box-shadow: 0 0 15px #fff;
+}
+
+.whatsapp-widget i {
+  line-height: 60px;
+}
+
+.asw-logo {
+  max-width: 40%;
+}
+
+.g-bg-orange-lineargradient--hover {
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(225deg, #be1715, #ed6d0f);
+  background-image: -o-linear-gradient(225deg, #be1715, #ed6d0f);
+  background-image: linear-gradient(225deg, #be1715, #ed6d0f);
+}
+
+.text-gold {
+  color: #bcac76 !important;
+}
+
+.g-brd-gold-bg {
+  -webkit-border-image: linear-gradient(
+    160deg,
+    rgb(221 192 93 / 55%) 0%,
+    rgb(188 172 118 / 60%) 100%
+  );
+  -o-border-image: linear-gradient(
+    160deg,
+    rgb(221 192 93 / 55%) 0%,
+    rgb(188 172 118 / 60%) 100%
+  );
+  border-image: linear-gradient(
+    160deg,
+    rgb(221 192 93 / 55%) 0%,
+    rgb(188 172 118 / 60%) 100%
+  );
+  border-image-slice: 1;
+}
+
+.bg-light-sea-green {
+  background-color: #f3fdfa !important;
+}
+
+.bg-light-sea-blue {
+  background-color: #f3fdfa !important;
+}
+.bg-light-sea-blue-v2 {
+  background-color: #f9fdf9 !important;
+}
+
+.bg-light-yellow {
+  background-color: #fcfaeb !important;
+}
